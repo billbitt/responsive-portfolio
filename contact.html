@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bill's Basic Portfolio - Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body class="standardText">
+	<div class="pageWrap">
+		<!-- this section is the top navigation bar -->	
+		<section class="topBar">
+			<div class="topWrap">
+				<div class="topBar__name">
+					<h1 class="h1--topBar">Bill Bittner</h1>
+				</div>
+				<nav class="topBar__navigation">
+					<a class="navLink navLink--left" href="index.html" >About</a>
+					|
+					<a class="navLink navLink--middle" href="portfolio.html">Portfolio</a>
+					|
+					<a class="navLink navLink--right" href="contact.html">Contact</a>
+				</nav>
+			</div>
+		</section>
+
+		<!-- this section is the main content of the page-->
+		<section class="middleBar">
+			<div class="middleWrap">
+				<div class="contentBox contentBox__main">
+					<h1>Contact</h1>
+					<hr class="hr--content">
+					<form action="TBD" method="post" class="contactForm standardText">  <!-- need to update action -->
+						<div>
+							<label for="name">Name</label>
+							<input type="text" id ="name" name="user_name" value="John Smith"/>
+						</div>
+						<div>
+							<label for="mail">Email</label>
+							<input type="email" id="mail" name="user_mail" value="example@gmail.com"/>
+						</div>
+						<div>
+							<label for="msg">Message</label>
+							<textarea id="msg" name="user_message"></textarea>
+						</div>
+						<button type="submit" >Submit</button>
+					</form>
+
+				</div>
+				<div class="contentBox contentBox__connect">
+					<h2>Connect with Me</h2>
+					<hr class="hr--contact">
+					<a href="https://github.com/billbittner" target="_blank">
+					<img class="contactLink contactLink--padded" src="assets/images/gitPic.png" alt="github">
+					</a>
+					<a href="https://www.linkedin.com/in/bill-bittner-b1b48b4b" target="_blank">
+					<img class="contactLink contactLink--padded" src="assets/images/linkedinPic.png" alt="linked in">
+					</a>
+					<a href="http://stackexchange.com/users/9160255/bill-bittner" target="_blank">
+					<img class="contactLink" src="assets/images/stackPic.png" alt="stack overflow">
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- this section is the bottom copyright bar-->
+	<footer>
+		<p>&copy; Copyright 2016 Bill Bittner</p>
+	</footer>
+
+</body>
+
+</html>

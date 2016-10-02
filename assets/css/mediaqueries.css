@@ -1,0 +1,114 @@
+@media screen and (max-width: 980px) {
+
+	body {
+		background-color: orange;  /*take out when done*/
+	}
+
+	.topWrap {
+		width: 730px;
+	}
+
+	.middleWrap {
+		width: 730px;
+	}
+
+	.contentBox--main {
+		width: 360px;
+	}
+
+	#profilePic {
+		width: 100%;
+		float: none;
+		margin: 10px 0px 10px 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: yellow;  /*take out when done*/
+	}
+	
+	/*top bar*/
+	.topWrap {
+		width: 90%;
+		padding: 0px 5% 0px 5%;
+	}
+
+	/*content*/
+	.middleWrap {
+		width: 90%;
+		padding: 15px 5% 15px 5%;
+	}
+
+	.contentBox--main {
+		float: none;
+		margin: 15px 0px 15px 0px;
+		padding: 15px 5% 15px 5%;  
+	  	width: 90%;
+	  	overflow: auto;
+	}
+
+	.contentBox--connect {
+		float: none;
+		margin: 15px 0px 15px 0px;
+		padding: 15px 5% 15px 5%; 
+		width: 90%;
+		overflow: auto;
+	}
+	
+	/*about me */
+	#profilePic {
+		float: left;
+		margin: 10px 25px 10px 0px;
+		width: 50%;
+	}
+
+	/*portfolio*/
+
+	/*contact*/
+
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		background-color: red;  /*take out when done*/
+	}
+
+	/*top bar*/
+	.topWrap {
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	.topBar__name {
+		float: none;
+		padding: 22px 0px 22px 0px;
+		width: 100%;
+		text-align: center;
+		background-color: #4aaaa5;
+	}
+
+	.topBar__navigation {
+	 	float: none;
+	 	margin: 35px 0px 35px 0px;
+	 	width: 100%;
+	 	text-align: center;
+	 	color: #dddddd;
+	}
+
+	/*content*/
+
+	/*about me*/
+
+	#profilePic {
+		width: 100%;
+		float: none;
+		margin: 10px 0px 10px 0px;
+	}
+
+	/*portfolio*/
+
+	/*contact*/
+
+}
