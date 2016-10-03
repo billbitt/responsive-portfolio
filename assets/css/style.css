@@ -25,8 +25,21 @@ body {
 .topBar__navigation {
  	/*background-color: orange;*/  /*I like that you used test cases to make sure that things were workign the way they were supposed to. When you're done, clean this up by taking it out*/
  	float: right;
- 	margin-top: 35px;
+ 	overflow: auto;
+ 	margin: 0px 0px 0px 0px;
+	padding: 35px 0px 5px 0px;
  	color: #dddddd;
+}
+
+.navLinkBox {
+	/*background-color: blue;*/
+	float: right;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+.navLinkSpace {
+	float: right;
+	margin: 0px 5px 0px 5px;
 }
 
 .middleBar {
@@ -234,18 +247,6 @@ a {
 
 .navLink:hover { /* excellent use of pseudo classes to achieve your goal */
 	color: #4aaaa5;
-}
-
-.navLink--left {
-	margin: 0px 10px 0px 0px;
-}
-
-.navLink--middle {
-	margin: 0px 10px 0px 10px;
-}
-
-.navLink--right {
-	margin: 0px 0px 0px 10px;
 }
 
 .portfolioLink:hover { /* nice attention to detail */

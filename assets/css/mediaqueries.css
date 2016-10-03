@@ -125,6 +125,7 @@
 	/*top bar*/
 	.topWrap {
 		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
 		width: 100%;
 	}
 	.topBar__name {
@@ -137,10 +138,20 @@
 
 	.topBar__navigation {
 	 	float: none;
-	 	margin: 35px 0px 35px 0px;
+	 	margin: 0px 0px 0px 0px;
+	 	padding: 35px 0px 35px 0px;
 	 	width: 100%;
 	 	text-align: center;
 	 	color: #dddddd;
+	}
+
+	.navLinkBox {
+		float: left;
+		width: 32%;
+	}
+	.navLinkSpace {
+		float: left;
+		margin: 0px 0px 0px 0px;
 	}
 
 	/*content*/
