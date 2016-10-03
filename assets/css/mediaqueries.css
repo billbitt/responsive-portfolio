@@ -1,9 +1,5 @@
 @media screen and (max-width: 980px) {
 
-	body {
-		background-color: orange;  /*take out when done*/
-	}
-
 	/*top bar*/
 	.topWrap {
 		width: 730px;
@@ -56,10 +52,6 @@
 
 @media screen and (max-width: 768px) {
 
-	body {
-		background-color: yellow;  /*take out when done*/
-	}
-	
 	/*top bar*/
 	.topWrap {
 		width: 90%;
@@ -117,10 +109,6 @@
 }
 
 @media screen and (max-width: 640px) {
-
-	body {
-		background-color: red;  /*take out when done*/
-	}
 
 	/*top bar*/
 	.topWrap {
