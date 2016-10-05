@@ -31,7 +31,7 @@ body {
  	color: #dddddd;
 }
 
-.nav-link-box {
+.nav-link-wrap {
 	/*background-color: blue;*/
 	float: left;
 	margin: 0px 0px 0px 0px;
@@ -80,6 +80,7 @@ footer {
 	color: #cccccc;
 	border-top: #4aaaa5 solid 8px;
 	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: small;
 	padding-top: 20px;
 }
@@ -233,7 +234,7 @@ a {
 	margin-top: 5px;
 }
 
-.contact-link--padded {
+.contact-link--right-padded {
 	margin-right: 14px;
 }
 
@@ -254,13 +255,6 @@ a {
 }
 
 /* stick footer css */
-html, body {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	height: 100%;
-}
-
 .page-wrap {
 	min-height: 100%;
 	margin-bottom: -68px;
