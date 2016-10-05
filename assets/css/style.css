@@ -3,26 +3,26 @@ body {
 	background-image: url("../images/background.png");
 }
 
-.topBar {
+.top-bar {
 	overflow: auto;
 	background-color: #ffffff;
 	border-bottom: #cccccc solid 2px;  /* is this list correct?*/  /* Did it work? If the answer is yes, sure. Usually, devs will do 2px solid #color */
 }
 
-.topWrap {
+.top-wrap {
 	/*background-color: yellow;*/
 	overflow: auto;
 	width: 960px;
 	margin: auto;
 }
 
-.topBar__name {
+.top-bar__name {
 	float: left;
 	background-color: #4aaaa5;
 	padding: 22px 30px 22px 30px;
 }
 
-.topBar__navigation {
+.top-bar__navigation {
  	/*background-color: orange;*/  /*I like that you used test cases to make sure that things were workign the way they were supposed to. When you're done, clean this up by taking it out*/
  	float: right;
  	overflow: auto;
@@ -31,24 +31,24 @@ body {
  	color: #dddddd;
 }
 
-.navLinkBox {
+.nav-link-box {
 	/*background-color: blue;*/
 	float: left;
 	margin: 0px 0px 0px 0px;
 	text-align: center;
 }
-.navLinkSpace {
+.nav-link-spacer {
 	float: left;
 	margin: 0px 5px 0px 5px;
 }
 
-.middleBar {
+.middle-bar {
 	/*background-color: purple;*/
 	clear: both;
 	overflow: auto;
 }
 
-.middleWrap {
+.middle-wrap {
 	/*background-color: yellow;*/
 	overflow: auto;
 	margin: auto;
@@ -56,19 +56,19 @@ body {
 	width: 960px;
 }
 
-.contentBox {
+.content-box {
 	border: #dddddd solid 1px;
 	background-color: #ffffff;
 }
 
-.contentBox--main {
+.content-box--main {
 	float: left;
 	padding: 30px 30px 30px 30px;
   	width: 590px;
   	overflow: auto;
 }
 
-.contentBox--connect {
+.content-box--connect {
 	float: right;
 	padding: 30px 30px 30px 30px;
 	width: 210px;
@@ -85,14 +85,14 @@ footer {
 }
 
 /*about page items */
-#profilePic {
+#profile-pic {
 	width: 200px;
 	float: left;
 	margin: 10px 25px 10px 0px;
 }
 
 /*portfolio page items*/
-.portfolioItem__odd {
+.portfolio-item__odd {
 	float: left;
 	position: relative;
 	width: 275px;
@@ -100,7 +100,7 @@ footer {
 	margin: 30px 0px 30px 0px;
 }
 
-.portfolioItem__even {
+.portfolio-item__even {
 	float: right;
 	position: relative;
 	width: 275px;
@@ -108,12 +108,12 @@ footer {
 	margin: 30px 0px 30px 0px;
 }
 
-.portfolioPic {
+.portfolio-pic {
 	width: 100%;
 	height: 100%;
 }
 
-.portfolioTitle {
+.portfolio-title {
 	position: absolute;
 	bottom: 10px;
 	width: 100%;
@@ -190,7 +190,7 @@ h1 {
 	line-height: 1.5;
 }
 
-.h1--topBar {
+.h1--top-bar {
 	color: #ffffff;
 }
 
@@ -203,14 +203,14 @@ h3 {
 
 }
 
-.h2--portfolioTitle {
+.h2--portfolio-title {
 	color: #ffffff;
 	font-weight: normal;
 	line-height: 2;
 	margin: 5px 0px 5px 0px;
 }
 
-.standardText {
+.standard-text {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	font-size: large;
@@ -226,30 +226,30 @@ a {
 	text-decoration: none;
 }
 
-.contactLink {  /* nice!!! */
+.contact-link {  /* nice!!! */
 	float: left;
 	height: 60px;
 	width: 60px;
 	margin-top: 5px;
 }
 
-.contactLink--padded {
+.contact-link--padded {
 	margin-right: 14px;
 }
 
-.contactLink:hover {
+.contact-link:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navLink {
+.nav-link {
 	color: #777777;
 }
 
-.navLink:hover { /* excellent use of pseudo classes to achieve your goal */
+.nav-link:hover { /* excellent use of pseudo classes to achieve your goal */
 	color: #4aaaa5;
 }
 
-.portfolioLink:hover { /* nice attention to detail */
+.portfolio-link:hover { /* nice attention to detail */
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -261,16 +261,16 @@ html, body {
 	height: 100%;
 }
 
-.pageWrap {
+.page-wrap {
 	min-height: 100%;
 	margin-bottom: -68px;
 }
 
-.pageWrap:after { /* it's cool tha tyou made this an after pseudoclass. do you really need to? */
+.page-wrap:after { /* it's cool that you made this an after pseudoclass. do you really need to? */
 	content: "";
 	display: block;
 }
 
-footer, .pageWrap:after {
+footer, .page-wrap:after {
 	height: 60px;
 }

@@ -1,28 +1,28 @@
 @media screen and (max-width: 980px) {
 
 	/*top bar*/
-	.topWrap {
+	.top-wrap {
 		width: 730px;
 	}
 
 	/*content*/
-	.middleWrap {
+	.middle-wrap {
 		width: 730px;
 	}
 
-	.contentBox--main {
+	.content-box--main {
 		width: 360px;
 	}
 	
 	/*about me*/
-	#profilePic {
+	#profile-pic {
 		width: 100%;
 		float: none;
 		margin: 10px 0px 10px 0px;
 	}
 	
 	/*portfolio*/
-	.portfolioItem__odd, .portfolioItem__even {
+	.portfolio-item__odd, .portfolio-item__even {
 		float: none;
 		position: relative;
 		width: 100%;
@@ -53,18 +53,18 @@
 @media screen and (max-width: 768px) {
 
 	/*top bar*/
-	.topWrap {
+	.top-wrap {
 		width: 90%;
 		padding: 0px 5% 0px 5%;
 	}
 
 	/*content*/
-	.middleWrap {
+	.middle-wrap {
 		width: 90%;
 		padding: 15px 5% 15px 5%;
 	}
 
-	.contentBox--main {
+	.content-box--main {
 		float: none;
 		margin: 15px 0px 15px 0px;
 		padding: 15px 5% 15px 5%;  
@@ -72,7 +72,7 @@
 	  	overflow: auto;
 	}
 
-	.contentBox--connect {
+	.content-box--connect {
 		float: none;
 		margin: 15px 0px 15px 0px;
 		padding: 15px 5% 15px 5%; 
@@ -81,14 +81,14 @@
 	}
 	
 	/*about me */
-	#profilePic {
+	#profile-pic {
 		float: left;
 		margin: 10px 25px 10px 0px;
 		width: 50%;
 	}
 
 	/*portfolio*/
-	.portfolioItem__odd {
+	.portfolio-item__odd {
 		float: left;
 		position: relative;
 		width: 45%;
@@ -96,7 +96,7 @@
 		/*margin: 30px 0px 30px 0px;*/
 	}
 
-	.portfolioItem__even {
+	.portfolio-item__even {
 		float: right;
 		position: relative;
 		width: 45%;
@@ -111,12 +111,12 @@
 @media screen and (max-width: 640px) {
 
 	/*top bar*/
-	.topWrap {
+	.top-wrap {
 		padding: 0px 0px 0px 0px;
 		margin: 0px 0px 0px 0px;
 		width: 100%;
 	}
-	.topBar__name {
+	.top-bar__name {
 		float: none;
 		padding: 22px 0px 22px 0px;
 		width: 100%;
@@ -124,7 +124,7 @@
 		background-color: #4aaaa5;
 	}
 
-	.topBar__navigation {
+	.top-bar__navigation {
 	 	float: none;
 	 	margin: 0px 0px 0px 0px;
 	 	padding: 35px 0px 35px 0px;
@@ -133,11 +133,11 @@
 	 	color: #dddddd;
 	}
 
-	.navLinkBox {
+	.nav-link-box {
 		float: left;
 		width: 32%;
 	}
-	.navLinkSpace {
+	.nav-link-spacer {
 		float: left;
 		margin: 0px 0px 0px 0px;
 	}
@@ -145,14 +145,14 @@
 	/*content*/
 
 	/*about me*/
-	#profilePic {
+	#profile-pic {
 		width: 100%;
 		float: none;
 		margin: 10px 0px 10px 0px;
 	}
 
 	/*portfolio*/
-	.portfolioItem__odd, .portfolioItem__even {
+	.portfolio-item__odd, .portfolio-item__even {
 		float: none;
 		position: relative;
 		width: 100%;
