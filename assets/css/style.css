@@ -162,14 +162,14 @@ hr {
 	border: 0px;
 }
 
-.hr--content {
+.hr__content {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 3px;
 	background-color: #dddddd;
 }
 
-.hr--contact {
+.hr__contact {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	height: 2px;
@@ -188,7 +188,7 @@ h1 {
 	line-height: 1.5;
 }
 
-.h1--top-bar {
+.h1__top-bar {
 	color: #ffffff;
 }
 
@@ -201,7 +201,7 @@ h3 {
 
 }
 
-.h2--portfolio-title {
+.h2__portfolio-title {
 	color: #ffffff;
 	font-weight: normal;
 	line-height: 2;
@@ -232,8 +232,10 @@ a {
 	margin-top: 5px;
 }
 
-.contact-link--right-padded {
-	margin-right: 14px;
+.contact-link-spacer {
+	float: left;
+	width: 14px;
+	height: 10px;
 }
 
 .contact-link:hover {
