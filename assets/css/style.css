@@ -220,6 +220,21 @@ a {
 	margin-top: 5px;
 }
 
+#github-link {
+	animation-name: linkBorderHighlight;
+    animation-duration: 1s;
+}
+
+#linkedin-link {
+	animation-name: linkBorderHighlight;
+    animation-duration: 2s;
+}
+
+#stackoverflow-link {
+	animation-name: linkBorderHighlight;
+    animation-duration: 3s;
+}
+
 .contact-link-spacer {
 	float: left;
 	width: 14px;
@@ -296,6 +311,18 @@ footer, .page-wrap:after {
 		color: #CCCCCC;
 	}
 
+}
+
+@keyframes linkBorderHighlight {
+    0% {
+    	box-shadow: none;
+    }
+    50% {
+    	box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 yellow;
+    }
+    100% {
+    	box-shadow: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
