@@ -262,6 +262,18 @@ footer, .page-wrap:after {
 	height: 60px;
 }
 
+@keyframes linkBorderHighlight {
+    0% {
+   		box-shadow: none;
+    }
+    50% {
+    	box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 yellow;
+    }
+    100% {
+   		box-shadow: none;
+    }
+}
+
 @media screen and (max-width: 980px) {
 
 	.top-wrap {
