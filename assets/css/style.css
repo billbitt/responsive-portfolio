@@ -15,13 +15,13 @@ body {
 	margin: auto;
 }
 
-.top-bar__name {
+.top-bar-name {
 	float: left;
 	background-color: #4aaaa5;
 	padding: 22px 30px 22px 30px;
 }
 
-.top-bar__navigation {
+.top-bar-navigation {
  	float: right;
  	overflow: auto;
  	margin: 0px 0px 0px 0px;
@@ -52,22 +52,20 @@ body {
 }
 
 .middle-bar-content-box {
+	overflow: auto;
 	border: #dddddd solid 1px;
+	padding: 30px 30px 30px 30px;
 	background-color: #ffffff;
 }
 
 .middle-bar-content-box__main {
 	float: left;
-	padding: 30px 30px 30px 30px;
   	width: 590px;
-  	overflow: auto;
 }
 
 .middle-bar-content-box__connect {
 	float: right;
-	padding: 30px 30px 30px 30px;
 	width: 210px;
-	overflow: auto;
 }
 
 footer {
@@ -86,20 +84,18 @@ footer {
 	margin: 10px 25px 10px 0px;
 }
 
-.portfolio-item__left {
-	float: left;
+.portfolio-item {
 	position: relative;
 	width: 275px;
 	height: 205px;
 	margin: 30px 0px 30px 0px;
 }
+.portfolio-item__left {
+	float: left;
+}
 
 .portfolio-item__right {
 	float: right;
-	position: relative;
-	width: 275px;
-	height: 205px;
-	margin: 30px 0px 30px 0px;
 }
 
 .portfolio-pic {
@@ -119,7 +115,7 @@ form {
 	margin: 30px 0px 0px 0px;
 }
 
-input {
+input, textarea {
 	margin: 10px 0px 20px 0px;
 	border: #CCCCCC solid 1px;
 	padding: 10px;
@@ -128,12 +124,7 @@ input {
 }
 
 textarea {
-	margin: 10px 0px 20px 0px;
-	border: #CCCCCC solid 1px;
-	padding: 10px;
-	width: 570px;
 	height: 200px;
-	color: #CCCCCC;
 }
 
 button {
@@ -186,16 +177,16 @@ h2 {
 	font-size: x-large;
 }
 
-h3 {
-	font-size: large;
-
-}
-
 .h2__portfolio-title {
 	color: #ffffff;
 	font-weight: normal;
 	line-height: 2;
 	margin: 5px 0px 5px 0px;
+}
+
+h3 {
+	font-size: large;
+
 }
 
 .standard-text {
@@ -213,36 +204,36 @@ a {
 	text-decoration: none;
 }
 
-.contact-link {
+.img__contact-link {
 	float: left;
 	height: 60px;
 	width: 60px;
 	margin-top: 5px;
 }
 
-#github-link {
+.img__contact-link--animated-1s {
 	animation-name: linkBorderHighlight;
     animation-duration: 1s;
 }
 
-#linkedin-link {
+.img__contact-link--animated-2s  {
 	animation-name: linkBorderHighlight;
     animation-duration: 2s;
 }
 
-#stackoverflow-link {
+.img__contact-link--animated-3s  {
 	animation-name: linkBorderHighlight;
     animation-duration: 3s;
+}
+
+.img__contact-link:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-link-spacer {
 	float: left;
 	width: 14px;
 	height: 10px;
-}
-
-.contact-link:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-link {
@@ -291,11 +282,13 @@ footer, .page-wrap:after {
 		margin: 10px 0px 10px 0px;
 	}
 	
-	.portfolio-item__left, .portfolio-item__right {
-		float: none;
-		position: relative;
+	.portfolio-item {
 		width: 100%;
 		height: auto;
+	}
+
+	.portfolio-item__left, .portfolio-item__right {
+		float: none;
 	}
 
 	input {
@@ -311,18 +304,6 @@ footer, .page-wrap:after {
 		color: #CCCCCC;
 	}
 
-}
-
-@keyframes linkBorderHighlight {
-    0% {
-    	box-shadow: none;
-    }
-    50% {
-    	box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 yellow;
-    }
-    100% {
-    	box-shadow: none;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -359,18 +340,16 @@ footer, .page-wrap:after {
 		width: 50%;
 	}
 
+	.portfolio-item {
+		width: 45%;
+	}
+
 	.portfolio-item__left {
 		float: left;
-		position: relative;
-		width: 45%;
-		height: auto;
 	}
 
 	.portfolio-item__right {
 		float: right;
-		position: relative;
-		width: 45%;
-		height: auto;
 	}
 
 }
@@ -383,7 +362,7 @@ footer, .page-wrap:after {
 		width: 100%;
 		position: static;
 	}
-	.top-bar__name {
+	.top-bar-name {
 		float: none;
 		padding: 22px 0px 22px 0px;
 		width: 100%;
@@ -391,7 +370,7 @@ footer, .page-wrap:after {
 		background-color: #4aaaa5;
 	}
 
-	.top-bar__navigation {
+	.top-bar-navigation {
 	 	float: none;
 	 	margin: 0px 0px 0px 0px;
 	 	padding: 35px 0px 35px 0px;
@@ -415,11 +394,12 @@ footer, .page-wrap:after {
 		margin: 10px 0px 10px 0px;
 	}
 
+	.portfolio-item {
+		width: 100%;
+	}
+
 	.portfolio-item__left, .portfolio-item__right {
 		float: none;
-		position: relative;
-		width: 100%;
-		height: auto;
 	}
 
 }
