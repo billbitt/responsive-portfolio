@@ -8,9 +8,9 @@ My goal with this project was to practice having to create a site for a client b
 ### Full width
 ![full width](http://i.imgur.com/aB46DDS.png)
 ### Dynamic below 980px wide
-![980px wide](http://i.imgur.com/i3FsyVv.jpg)
+![980px wide](http://i.imgur.com/fbRAkUp.jpg)
 ### Dynamic below 768px wide 
-![768px wide](http://i.imgur.com/fbRAkUp.jpg)
+![768px wide](http://i.imgur.com/i3FsyVv.jpg)
 ### Dynamic below 640px wide
 ![640px wide](http://i.imgur.com/LFmngRu.jpg)
 
